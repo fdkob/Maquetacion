@@ -3,11 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Proyecto con Javascript</title>
+
 	<!--CSS-->
 	<link rel="stylesheet" href="css/styles.css">
-
 	
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
+	<!--Slider-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	<!--Scripts-->
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 	<!--Contenedor global-->
@@ -28,52 +36,56 @@
 				</ul>
 			</nav>
 		</header>
-	<!--Slider-->
-	<div id="slider">
-		
-	</div>
-
-	<!--Contenido-->
-	<section id="content">
-		<div id="posts">
-			<article class="post">
-				<h2>Titulo del articulo</h2>
-				<span class="date">Fecha de publicacion</span>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nesciunt eos, ipsum id, architecto velit sequi fuga minima commodi, porro vitae officiis, voluptatibus minus voluptates ab. Dolore, dolor repellat quasi. Repellat quasi, sunt beatae? Labore animi repellat explicabo doloremque repellendus incidunt, quibusdam quo facere necessitatibus praesentium fugit in inventore optio!</p>
-				<a href="#" class="button-more">Leer más</a>
-			</article>
-			<article class="post">
-				<h2>Titulo del articulo</h2>
-				<span class="date">Fecha de publicacion</span>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nesciunt eos, ipsum id, architecto velit sequi fuga minima commodi, porro vitae officiis, voluptatibus minus voluptates ab. Dolore, dolor repellat quasi. Repellat quasi, sunt beatae? Labore animi repellat explicabo doloremque repellendus incidunt, quibusdam quo facere necessitatibus praesentium fugit in inventore optio!</p>
-				<a href="#" class="button-more">Leer más</a>
-			</article>
+		<!--Slider-->
+		<div id="slider">
+			<div class="sliderfotos">
+				<div><img src="img/hojas.jpg" title="Hojas"></div>
+				<div><img src="img/rojo.jpg" title="Rojo"></div>
+				<div><img src="img/cielo.jpg" title="Cielo"></div>
+			</div>
 		</div>
-		<aside id="sidebar">
-			<div id="about">
-				<h4><span>Sobre mi:</span></h4>
-				<img src="img/caracol.jpg" alt="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eos dolores, quo quod aliquam eligendi.</p>
+
+		<!--Contenido-->
+		<section id="content">
+			<div id="posts">
+				<article class="post">
+					<h2>Titulo del articulo</h2>
+					<span class="date">Fecha de publicacion</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nesciunt eos, ipsum id, architecto velit sequi fuga minima commodi, porro vitae officiis, voluptatibus minus voluptates ab. Dolore, dolor repellat quasi. Repellat quasi, sunt beatae? Labore animi repellat explicabo doloremque repellendus incidunt, quibusdam quo facere necessitatibus praesentium fugit in inventore optio!</p>
+					<a href="#" class="button-more">Leer más</a>
+				</article>
+				<article class="post">
+					<h2>Titulo del articulo</h2>
+					<span class="date">Fecha de publicacion</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nesciunt eos, ipsum id, architecto velit sequi fuga minima commodi, porro vitae officiis, voluptatibus minus voluptates ab. Dolore, dolor repellat quasi. Repellat quasi, sunt beatae? Labore animi repellat explicabo doloremque repellendus incidunt, quibusdam quo facere necessitatibus praesentium fugit in inventore optio!</p>
+					<a href="#" class="button-more">Leer más</a>
+				</article>
 			</div>
+			<aside id="sidebar">
+				<div id="about">
+					<h4><span>Sobre mi:</span></h4>
+					<img src="img/caracol.jpg" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eos dolores, quo quod aliquam eligendi.</p>
+				</div>
 
-			<div id="login">
-				<h4><span>Identificate:</span></h4>
-				<form action="">
-					<label for="name">Nombre:</label>
-					<input type="text" name="name"/>
+				<div id="login">
+					<h4><span>Identificate:</span></h4>
+					<form action="">
+						<label for="name">Nombre:</label>
+						<input type="text" name="name"/>
 
-					<label for="name">Mail:</label>
-					<input type="text" name="email"/>
-					<label for="name">Contraseña:</label>
-					<input type="password" name="password"/>
+						<label for="name">Mail:</label>
+						<input type="text" name="email"/>
+						<label for="name">Contraseña:</label>
+						<input type="password" name="password"/>
 
-					<input type="submit" value="Entrar">
-				</form>
-			</div>
+						<input type="submit" value="Entrar">
+					</form>
+				</div>
 
-		</aside>
-		<div class="clearfix"></div>
-	</section>
+			</aside>
+			<div class="clearfix"></div>
+		</section>
 
 
 
